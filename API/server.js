@@ -252,6 +252,10 @@ app.get(
   })
 );
 
+app.get("/", (req, res) => {
+  res.send("Server is running!");
+});
+
 // Google Callback
 
 app.get(
