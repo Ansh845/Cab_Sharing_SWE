@@ -60,6 +60,7 @@ const UserDashboard = () => {
       }
     };
     fetchStats();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [fetchMyRides]);
 
   const handleChange = (e) => {

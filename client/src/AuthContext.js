@@ -40,6 +40,7 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     loadSession();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Google OAuth — redirects to Google
