@@ -272,6 +272,7 @@ app.get(
     res.cookie("token", token, {
       httpOnly: true,
       secure: false,
+      sameSite: "none",
       maxAge: 30 * 60 * 1000,
     });
 
